@@ -25,7 +25,7 @@ module.exports = {
       telegram: '#',
       twitter: 'yukimemi',
       github: 'yukimemi',
-      rss: '#',
+      rss: 'rss.xml',
       vk: '#',
     },
   },

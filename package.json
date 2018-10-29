@@ -4,11 +4,11 @@
   "description": "Simple starter for Gatsby",
   "main": "n/a",
   "scripts": {
-    "develop": "gatsby develop",
-    "build": "gatsby build",
+    "develop": "gatsby develop --verbose -o",
+    "build": "gatsby build --verbose",
     "clean:public": "rm -rf public",
     "clean": "npm run clean:public",
-    "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
+    "lint": "eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
